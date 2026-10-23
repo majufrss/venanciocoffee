@@ -38,3 +38,37 @@ button,a{-webkit-tap-highlight-color:transparent}
 
 /* Reserva o espaço do card mesmo se a imagem externa não carregar. */
 .coffee-card-image img.image-unavailable{visibility:hidden}
+
+
+/* Assinatura: hierarquia clara, benefícios e planos */
+.how-it-works{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:46px 0 88px;padding:26px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.how-it-works article{display:flex;gap:15px;align-items:flex-start;padding:8px 14px}
+.how-it-works article>span{font-family:var(--serif);font-size:27px;color:var(--olive);line-height:1.1}
+.how-it-works h3{font-family:var(--serif);font-size:19px;font-weight:500;margin:0 0 7px}
+.how-it-works p,.plans-heading>p{font-size:13px;line-height:1.7;color:#75685d;margin:0}
+.plans-heading{text-align:center;margin:0 auto 35px;max-width:680px}
+.plans-heading .eyebrow{justify-content:center}
+.plans-heading h2{font-family:var(--serif);font-weight:500;font-size:clamp(34px,4vw,49px);line-height:1.13;letter-spacing:-.04em;margin:12px 0}
+.plans-heading h2 em{color:var(--olive);font-weight:500}
+.plans-heading>p{max-width:44ch;margin:0 auto}
+.plans-grid{align-items:stretch}
+.plan-card{position:relative;display:flex;flex-direction:column;background:var(--paper);padding-bottom:22px}
+.plan-image{height:235px;position:relative;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.plan-image-essential{background:radial-gradient(ellipse at 50% 45%,#bba17c 0 12%,transparent 13%),linear-gradient(135deg,#e5d7bf,#9b785b)}
+.plan-image-discovery{background:radial-gradient(ellipse at 35% 45%,#d4c49b 0 13%,transparent 14%),linear-gradient(135deg,#777b55,#d9d3b8)}
+.plan-image-reserve{background:radial-gradient(ellipse at 60% 45%,#c8a879 0 13%,transparent 14%),linear-gradient(135deg,#493427,#a9825c)}
+.plan-image:before,.plan-image:after{content:"";position:absolute;width:150px;height:220px;border:1px solid rgba(255,255,255,.45);border-radius:50%;transform:rotate(38deg)}
+.plan-image:after{transform:rotate(-38deg);width:110px;height:245px}
+.plan-image-label{position:absolute;top:17px;left:18px;font-size:9px;letter-spacing:.18em;color:#fff;z-index:1}
+.plan-art-bean{font-size:45px;color:rgba(255,255,255,.9);z-index:1}
+.plan-kicker{font-size:9px;letter-spacing:.16em;color:var(--olive);display:block;margin-bottom:8px}
+.plan-card .coffee-card-info{padding:24px 24px 6px}
+.plan-card .coffee-card-info h3{font-family:var(--serif);font-size:27px;font-weight:500;margin:0 0 4px}
+.plan-card .coffee-card-info p{font-size:12px;margin:0;color:#76695e}
+.plan-description{padding:0 24px;font-size:13px;color:#75685d;line-height:1.75;flex:1;margin:12px 0 24px}
+.plan-cta{margin:0 24px;display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:11px}
+.plan-featured{outline:1px solid var(--olive);transform:translateY(-8px)}
+.plan-featured-label{position:absolute;z-index:2;top:0;right:0;background:var(--olive);color:#fff;padding:8px 12px;font-size:8px;letter-spacing:.12em}
+.product-note{text-align:center;color:#84776b;font-size:10px;line-height:1.6;max-width:75ch;margin:25px auto 0}
+.values-lead{font-size:14px;max-width:35ch;color:#75685d;margin-top:18px}
+@media(max-width:760px){.how-it-works{grid-template-columns:1fr;gap:8px;margin:32px 0 62px;padding:18px 0}.how-it-works article{padding:10px 4px}.plans-heading{margin-bottom:28px}.plan-featured{transform:none}.plan-image{height:230px}.plan-cta{min-height:48px}}
