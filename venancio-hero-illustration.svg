@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100">
+<rect width="900" height="1100" fill="#e7dfcd"/>
+<circle cx="450" cy="470" r="325" fill="#d6d0b5" stroke="#766b4d" stroke-width="3"/>
+<circle cx="450" cy="470" r="300" fill="none" stroke="#766b4d" stroke-width="2" stroke-dasharray="3 12"/>
+<g fill="none" stroke="#493427" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+<!-- vintage portrait, deliberately illustrative rather than a photo trace -->
+<path d="M315 365 Q292 285 355 245 Q420 200 500 236 Q570 265 579 351 L562 451 Q548 530 450 555 Q353 529 336 454Z" fill="#f4efe5"/>
+<path d="M324 350 Q318 276 380 252 Q438 226 494 253 Q548 275 566 337 Q529 309 504 277 Q452 316 365 306Z" fill="#493427"/>
+<path d="M364 380 Q389 362 411 379 M490 379 Q513 361 536 379"/>
+<path d="M388 399 Q400 408 412 399 M490 399 Q502 408 514 399"/>
+<path d="M448 397 Q440 425 452 433"/>
+<path d="M408 451 Q450 468 493 449 Q482 485 450 487 Q421 482 408 451Z" fill="#d6c4a5"/>
+<path d="M354 454 Q373 489 405 496 M546 454 Q528 489 495 496"/>
+<path d="M365 505 Q360 570 310 609 L250 700 Q450 790 650 700 L591 610 Q542 568 536 505" fill="#777b55"/>
+<path d="M365 575 L450 656 L536 575 M450 656 L450 755"/>
+<path d="M310 610 Q264 633 245 700 M590 610 Q635 634 655 700"/>
+</g>
+<g fill="none" stroke="#777b55" stroke-width="5" stroke-linecap="round">
+<path d="M110 720 Q180 615 185 500 Q192 432 156 373"/>
+<path d="M178 559 Q120 552 108 507 Q153 496 178 559Z" fill="#c8c9ac"/>
+<path d="M185 500 Q240 486 252 440 Q204 433 185 500Z" fill="#c8c9ac"/>
+<path d="M162 425 Q112 413 102 371 Q146 364 162 425Z" fill="#c8c9ac"/>
+<path d="M680 742 Q738 634 727 523 Q719 453 758 393"/>
+<path d="M726 575 Q780 566 796 521 Q749 511 726 575Z" fill="#c8c9ac"/>
+<path d="M728 520 Q675 503 664 459 Q711 453 728 520Z" fill="#c8c9ac"/>
+<path d="M748 447 Q799 432 807 390 Q761 385 748 447Z" fill="#c8c9ac"/>
+</g>
+<g fill="#493427" font-family="Georgia,serif" text-anchor="middle">
+<text x="450" y="865" font-size="48" letter-spacing="8">VENÂNCIO</text>
+<text x="450" y="920" font-size="25" letter-spacing="13">COFFEE</text>
+<path d="M330 952 H570" stroke="#777b55" stroke-width="2"/>
+<text x="450" y="995" font-size="22" font-style="italic">a vida flui</text>
+</g>
+</svg>
