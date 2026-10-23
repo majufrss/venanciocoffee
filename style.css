@@ -72,3 +72,17 @@ button,a{-webkit-tap-highlight-color:transparent}
 .product-note{text-align:center;color:#84776b;font-size:10px;line-height:1.6;max-width:75ch;margin:25px auto 0}
 .values-lead{font-size:14px;max-width:35ch;color:#75685d;margin-top:18px}
 @media(max-width:760px){.how-it-works{grid-template-columns:1fr;gap:8px;margin:32px 0 62px;padding:18px 0}.how-it-works article{padding:10px 4px}.plans-heading{margin-bottom:28px}.plan-featured{transform:none}.plan-image{height:230px}.plan-cta{min-height:48px}}
+
+/* Perguntas frequentes */
+.faq-section{display:grid;grid-template-columns:.8fr 1.2fr;gap:9%;background:var(--paper)}
+.faq-intro h2{font-family:var(--serif);font-size:clamp(36px,4vw,49px);font-weight:500;line-height:1.12;letter-spacing:-.04em;margin:14px 0}
+.faq-intro h2 em{color:var(--olive)}
+.faq-intro>p{max-width:32ch;color:#75685d;font-size:13px}
+.faq-list details{border-bottom:1px solid var(--line);padding:19px 0}
+.faq-list details:first-child{border-top:1px solid var(--line)}
+.faq-list summary{list-style:none;display:flex;align-items:center;justify-content:space-between;gap:20px;cursor:pointer;font-family:var(--serif);font-size:17px}
+.faq-list summary::-webkit-details-marker{display:none}
+.faq-list summary span{font-family:var(--sans);font-size:20px;color:var(--olive);transition:transform .2s}
+.faq-list details[open] summary span{transform:rotate(45deg)}
+.faq-list details p{font-size:13px;line-height:1.8;color:#75685d;max-width:62ch;margin:13px 32px 0 0}
+@media(max-width:760px){.faq-section{grid-template-columns:1fr;gap:24px}.faq-intro{text-align:center}.faq-intro .eyebrow{justify-content:center}.faq-intro>p{margin-inline:auto}.faq-list summary{font-size:16px}}
