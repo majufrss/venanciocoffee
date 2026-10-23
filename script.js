@@ -38,7 +38,4 @@ document.querySelectorAll('.coffee-card-image img').forEach((image) => {
   }, { once: true });
 });
 
-/* Demonstração interativa de seleção do plano. Não transmite nem armazena dados. */
-document.querySelectorAll("[data-plan]").forEach(function(link){link.addEventListener("click",function(){var select=document.getElementById("plan-choice");if(select)select.value=link.getAttribute("data-plan");});});
-var interestForm=document.getElementById("interest-form");
-if(interestForm){interestForm.addEventListener("submit",function(event){event.preventDefault();var plan=document.getElementById("plan-choice").value;var success=document.getElementById("form-success");success.hidden=false;success.textContent="Você selecionou o plano "+plan+". Esta é uma demonstração visual: para receber pedidos reais, precisamos conectar o formulário a um serviço de envio ou CRM.";success.scrollIntoView({behavior:"smooth",block:"nearest"});});}
+/* Projeto conceitual de portfólio: não coleta dados nem processa assinaturas. */
