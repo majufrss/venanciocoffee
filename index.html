@@ -24,7 +24,7 @@
       <a href="#cafes">Nossos cafés</a>
       <a href="#essencia">Nossa essência</a>
       <a href="#duvidas">Dúvidas</a>
-      <a class="nav-cta" href="#cafes">Escolha seu clube <span>↗</span></a>
+      <a class="nav-cta" href="#contato">Fale com a gente <span>↗</span></a>
     </nav>
   </header>
 
@@ -121,6 +121,22 @@
         <a class="button button-dark preview-button" href="#cafes">Explorar os planos <span>↗</span></a>
         <p class="preview-disclaimer">*Preço e composição ilustrativos, criados para apresentação de portfólio.</p>
       </div>
+    </section>
+
+    <section class="lead-section section-pad" id="contato">
+      <div class="lead-copy"><span class="eyebrow">Vamos conversar?</span><h2>Seu próximo café<br>favorito pode começar<br><em>com uma mensagem.</em></h2><p>Conta um pouquinho do que você procura. A equipe Venâncio entra em contato para apresentar o clube e ajudar você a escolher sua experiência.</p><div class="lead-note"><span aria-hidden="true">✳</span><span>Sem compromisso — só uma boa conversa sobre café.</span></div></div>
+      <form class="lead-form" id="contact-form">
+        <div class="lead-form-heading"><span class="eyebrow">Entre para a nossa lista</span><h3>Vamos falar de café?</h3><p>Preencha os campos e deixe o resto com a gente.</p></div>
+        <div class="lead-fields">
+          <div class="lead-field"><label for="lead-name">Seu nome</label><input id="lead-name" name="nome" type="text" placeholder="Como podemos te chamar?" autocomplete="name" required></div>
+          <div class="lead-field"><label for="lead-email">Seu e-mail</label><input id="lead-email" name="email" type="email" placeholder="voce@email.com" autocomplete="email" required></div>
+          <div class="lead-field"><label for="lead-plan">Qual plano chamou sua atenção?</label><select id="lead-plan" name="plano" required><option value="" disabled selected>Escolha uma opção</option><option>Essencial</option><option>Descobertas</option><option>Reserva</option><option>Ainda quero conhecer</option></select></div>
+          <div class="lead-field"><label for="lead-message">Quer contar mais alguma coisa? <span>(opcional)</span></label><textarea id="lead-message" name="mensagem" rows="3" placeholder="Conte o que você gosta de tomar..."></textarea></div>
+        </div>
+        <button class="button button-dark lead-submit" type="submit">Quero receber um contato <span>↗</span></button>
+        <p class="lead-privacy">Projeto conceitual: este formulário abre um rascunho de e-mail no seu aplicativo de e-mail. Nenhum dado é armazenado neste site.</p>
+        <p class="lead-feedback" id="lead-feedback" role="status" hidden></p>
+      </form>
     </section>
 
     <section class="contact section-pad" id="contato">
