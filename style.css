@@ -86,3 +86,31 @@ button,a{-webkit-tap-highlight-color:transparent}
 .faq-list details[open] summary span{transform:rotate(45deg)}
 .faq-list details p{font-size:13px;line-height:1.8;color:#75685d;max-width:62ch;margin:13px 32px 0 0}
 @media(max-width:760px){.faq-section{grid-template-columns:1fr;gap:24px}.faq-intro{text-align:center}.faq-intro .eyebrow{justify-content:center}.faq-intro>p{margin-inline:auto}.faq-list summary{font-size:16px}}
+
+/* Landing de assinatura: preço, benefícios e conversão */
+.announcement{font-size:9px;letter-spacing:.1em}
+.hero-copy>p{max-width:40ch}
+.plan-card{overflow:hidden;border:1px solid rgba(73,52,39,.12);box-shadow:0 14px 38px rgba(48,38,31,.045)}
+.plan-featured{box-shadow:0 18px 42px rgba(48,38,31,.12)}
+.plan-price{padding:0 24px 15px;display:flex;align-items:baseline;gap:7px}
+.plan-price strong{font-family:var(--serif);font-size:30px;font-weight:500;letter-spacing:-.04em;color:var(--coffee)}
+.plan-price span{font-size:11px;color:#75685d}
+.plan-benefits{list-style:none;padding:0 24px;margin:0 0 25px;display:grid;gap:10px}
+.plan-benefits li{font-size:12px;color:#66584d;display:flex;gap:9px;line-height:1.5}
+.plan-benefits li:before{content:"✓";color:var(--olive);font-weight:700}
+.plan-cta{margin-top:auto}
+.subscribe-section{display:grid;grid-template-columns:1fr 1fr;gap:9%;align-items:center;background:#e8e0d1}
+.subscribe-copy h2{font-family:var(--serif);font-weight:500;font-size:clamp(38px,5vw,58px);line-height:1.08;letter-spacing:-.045em;margin:18px 0}
+.subscribe-copy h2 em{color:var(--olive)}
+.subscribe-copy>p{max-width:42ch;color:#75685d;font-size:14px}
+.subscribe-promise{display:flex;gap:12px;align-items:center;margin-top:30px;max-width:340px}
+.subscribe-promise span{font-size:27px;color:var(--olive)}
+.subscribe-promise p{font-family:var(--serif);font-style:italic;font-size:17px;line-height:1.5;margin:0}
+.subscribe-form{display:grid;gap:9px;background:var(--paper);padding:clamp(22px,4vw,38px);border:1px solid var(--line);box-shadow:0 18px 45px rgba(48,38,31,.06)}
+.subscribe-form label{font-size:11px;letter-spacing:.03em;font-weight:700;margin-top:7px}
+.subscribe-form input,.subscribe-form select{width:100%;min-height:48px;border:1px solid var(--line);border-radius:0;background:#fffdf8;padding:12px 13px;color:var(--dark);font:inherit;font-size:13px}
+.subscribe-form input:focus,.subscribe-form select:focus{outline:2px solid var(--olive);outline-offset:2px}
+.subscribe-submit{width:100%;border:0;cursor:pointer;display:flex;justify-content:space-between;align-items:center;margin-top:12px}
+.form-note{font-size:10px;line-height:1.6;color:#84776b;margin:3px 0 0}
+.form-success{font-size:12px;line-height:1.6;padding:12px;background:#e5eadb;color:#39432b;margin:0}
+@media(max-width:760px){.subscribe-section{grid-template-columns:1fr;gap:30px}.subscribe-copy{text-align:center}.subscribe-copy .eyebrow{justify-content:center}.subscribe-copy>p,.subscribe-promise{margin-left:auto;margin-right:auto}.plan-price strong{font-size:29px}}
