@@ -40,15 +40,12 @@ document.querySelectorAll('.coffee-card-image img').forEach((image) => {
 
 /* Projeto conceitual de portfólio: não coleta dados nem processa assinaturas. */
 
-/* Formulário demonstrativo: prepara um e-mail para o contato, sem armazenar dados no site. */
+/* Formulário demonstrativo: abre um rascunho de e-mail para revisão. */
 var leadForm=document.getElementById("contact-form");
 if(leadForm){leadForm.addEventListener("submit",function(event){
   event.preventDefault();
   var data=new FormData(leadForm);
   var subject=encodeURIComponent("Interesse no clube Venâncio Coffee — "+data.get("plano"));
   var body=encodeURIComponent("Olá, equipe Venâncio Coffee!\n\nTenho interesse em conhecer o clube.\n\nNome: "+data.get("nome")+"\nE-mail: "+data.get("email")+"\nPlano de interesse: "+data.get("plano")+"\nMensagem: "+(data.get("mensagem")||"Não informada")+"\n\nEnviado pelo formulário demonstrativo do site.");
-  var feedback=document.getElementById("lead-feedback");
-  feedback.hidden=false;
-  feedback.textContent="Seu aplicativo de e-mail será aberto com a mensagem preenchida. Revise e envie para concluir o contato.";
   window.location.href="mailto:contato@venanciocoffee.com?subject="+subject+"&body="+body;
 });}
